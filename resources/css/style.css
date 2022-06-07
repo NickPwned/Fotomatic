@@ -256,12 +256,19 @@ header .mobile {
   flex: 1;
   padding: 2rem;
   margin: 0px 1.25rem;
+  max-height: 39rem;
   background-color: white;
 }
 
 .feature .image-container {
   width: 90%;
   height: 65%;
+  margin: 0 auto;
+}
+
+.feature .image-container img {
+  width: 100%;
+  height: auto;
   margin: 0 auto;
 }
 
