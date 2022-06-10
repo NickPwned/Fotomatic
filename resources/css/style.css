@@ -332,20 +332,28 @@ header .mobile {
 
 #filters-section .content h2 {
   font-size: 2.25rem;
+  margin: 0;
   font-weight: bold;
   color: white;
 }
 
 #filters-section .content h3 {
   font-size: 1rem;
+  margin: 0;
   line-height: 1.4;
   font-weight: 300;
   color: white;
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
+  margin: 0;
+}
+
+#filters-section img {
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
