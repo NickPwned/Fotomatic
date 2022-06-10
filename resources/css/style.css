@@ -129,7 +129,7 @@ header .mobile {
   position: relative;
   background-image: url(../images/banner-landingpage.jpg);
   background-repeat: no-repeat;
-  background-position: 0;
+  background-position: center;
   background-size: cover;
   width: 100%;
 }
@@ -201,6 +201,15 @@ header .mobile {
 }
 
 @media only screen and (max-width: 760px) {
+  .banner {
+    position: relative;
+    background-image: url(../images/banner-landingpage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+
   #sign-up-section {
     align-items: center;
     justify-content: center;
@@ -446,7 +455,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer .content {
     font-size: 0.625rem;
   }
